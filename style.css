@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    background-color: #29292e;
+    width: 1440px;
+    border-radius: 40px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#container {
+    margin: 80px;
+    padding: 94px 86px 113px 74px;
+    background-color: #FFF;
+}
+
+#title_page,
+#description_image {
+    margin-bottom: 40px;
+}
+
+#title_page h5 {
+    color: #E1624F;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+h1 {
+    color: #1B1B1B;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+#description_image img {
+    border-radius: 28px;
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+#description_image p {
+    color: #333;
+    font-size: 16px;
+    font-style: italic;
+    margin-bottom: 4px;
+    text-align: center;
+}
+
+.divider {
+    width: 100%;
+    height: 1px;
+    margin-top: 40px;
+    background-color: #d9d9d9;
+}
+
+#title_list {
+    margin-top: 64px;
+    margin-bottom: 64px;
+}
+
+#title h5 {
+    color: #E1624F;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 2px;
+}
+
+h2 {
+    color: #1B1B1B;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+#title_list p {
+    color: #333;
+    font-size: 16px;
+    margin-top: 8px;
+    text-align: left;
+}
+
+.card_travel {
+    margin-top: 48px;
+}
+
+h3 {
+    padding-bottom: 4px;
+    color: #1B1B1B;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.content_card_text p {
+    color: #333;
+    font-size: 16px;
+    text-align: left;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    position: relative;
+    padding-left: 12px;
+}
+
+li::before {
+    content: "\2022";
+    position: absolute;
+    left: 0;
+    font-size: 20px;
+    color: #333;
+    top: -10%;
+}
+
+a {
+    color: #0C51A7;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#list img {
+    border-radius: 28px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#purple-item {
+    color: #591B98;
+}
+
+#pink-item {
+    color: #E5245E;
+}
+
+#orange-item {
+    color: #E95E10;
+    margin-bottom: 11px;
+}
+
+#description {
+    margin-top: 40px;
+    margin-bottom: 41px;
+}
+
+#description p {
+    color: #333;
+    font-size: 16px;
+    text-align: center;
+}
+
+#credito {
+    font-family: 'Alice', sans-serif;
+    color: #333;
+    text-align: center;
+    margin-bottom: -48px;
+}
+
+#credito img {
+    vertical-align: middle;
+}
